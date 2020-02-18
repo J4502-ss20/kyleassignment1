@@ -8,20 +8,20 @@ body{
 }
 
 p {
-	color: #black;
+	color: #000000;
     font-family: "Merriweather", Georgia, "Merriweather Sans";
     font-size: 1.0rem;
     background-color: white
 }
 
 h1 {
-	color: #black;
+	color: #000000;
     font-family: "Merriweather", Georgia, "Merriweather Sans";
     text-align: center;
 }
 
 ul{
-  color: #black;
+  color: #000000;
   display: inline;
     font-family: "Merriweather", Georgia, "Merriweather Sans";
     text-align: center;
@@ -76,8 +76,8 @@ img{
 }
 
 #footer{
-	color: black;
+	color: #000000;
 	font-family: "Merriweather", Georgia, "Merriweather Sans";
 	font-size: 0.8em;
-	border-top: 1px solid black;
+	border-top: 1px solid #000000;
 }
