@@ -1,0 +1,83 @@
+html { font-size: 100%
+}
+
+body{
+  margin: 50px 0px; padding: 0px;
+  text-align: center;
+  background-color: grey
+}
+
+p {
+	color: #black;
+    font-family: "Merriweather", Georgia, "Merriweather Sans";
+    font-size: 1.0rem;
+    background-color: white
+}
+
+h1 {
+	color: #black;
+    font-family: "Merriweather", Georgia, "Merriweather Sans";
+    text-align: center;
+}
+
+ul{
+  color: #black;
+  display: inline;
+    font-family: "Merriweather", Georgia, "Merriweather Sans";
+    text-align: center;
+}
+
+#container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+img{
+
+  border: none;
+}
+
+#nav {
+	padding: 0;
+	list-style-type: none;
+}
+
+#nav li {
+    margin: 0;
+		padding: 0;
+	  border-bottom: 1px solid #ccc;
+		list-style: none;
+		padding: 0;
+		list-style-type: none;
+		text-decoration: none;
+  }
+
+#nav a:link, #nav a:visited {
+	display: block;
+	color: #fff;
+	background-color: #62AB90;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	padding: 4px;
+	font-family: "Merriweather", Georgia, "Merriweather Sans";
+}
+
+#nav a:hover, #nav a:active {
+	background-color: #3f6f5d;
+}
+
+.caption {
+		color: black;
+		font-family: "Merriweather", Georgia, "Merriweather Sans";
+		font-style: italic;
+		font-size: 0.8em;
+		text-align: right;
+}
+
+#footer{
+	color: black;
+	font-family: "Merriweather", Georgia, "Merriweather Sans";
+	font-size: 0.8em;
+	border-top: 1px solid black;
+}
