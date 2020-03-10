@@ -40,6 +40,8 @@ img{
 #nav {
 	padding: 0;
 	list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
 
 #nav li {
@@ -50,12 +52,10 @@ img{
 		padding: 0;
 		list-style-type: none;
 		text-decoration: none;
-    display: flex;
-    flex-direction: column;
   }
 
 #nav a:link, #nav a:visited {
-	/* display: block; */
+	display: block;
 	color: #fff;
 	background-color: #62AB90;
 	font-weight: bold;
@@ -67,15 +67,6 @@ img{
 
 #nav a:hover, #nav a:active {
 	background-color: #3f6f5d;
-}
-
-@media (min-width: 600px){
-  #nav{
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-
 }
 
 .caption {
@@ -91,4 +82,10 @@ img{
 	font-family: "Merriweather", Georgia, "Merriweather Sans";
 	font-size: 0.8em;
 	border-top: 1px solid #000000;
+}
+@media (min-width: 600px){
+  #nav{
+    flex-direction: row;
+    justify-content: center;
+  }
 }
